@@ -14,3 +14,8 @@ Therefore, the probability is
 $P(\text{sum} = 10 \mid \text{first die} = 1) = \frac{4}{36} = \frac{1}{9}$.  
 ### 1.2
 
+'''
+import numpy as np
+
+'''
+
