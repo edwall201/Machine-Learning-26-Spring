@@ -13077,7 +13077,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Assignment1">Assignment1<a class="anchor-link" href="#Assignment1">&#182;</a></h1><p><strong>Name:</strong> Edward Huang<br>
+<h1 id="Assignment1---Probability,-Linear-Algebra-and-Computational-Programming">Assignment1 - Probability, Linear Algebra and Computational Programming<a class="anchor-link" href="#Assignment1---Probability,-Linear-Algebra-and-Computational-Programming">&#182;</a></h1><p><strong>Name:</strong> Edward Huang<br>
 <strong>NetID:</strong> yh475<br>
 <strong>Collaborators:</strong> N/A</p>
 <hr>
@@ -13100,7 +13100,7 @@ $P(\text{sum} = 10 \mid \text{first die} = 1) = \frac{4}{36} = \frac{1}{9}$.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -13128,7 +13128,7 @@ $P(\text{sum} = 10 \mid \text{first die} = 1) = \frac{4}{36} = \frac{1}{9}$.</p>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>The fraction is approaching:  0.111593
+<pre>The fraction is approaching:  0.111038
 </pre>
 </div>
 </div>
@@ -13156,7 +13156,7 @@ $P(D \mid T) = \frac{0.95 \times 0.001}{0.95 \times 0.001 + 0.03 \times 0.999}
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>1.4</strong>
+<p><strong>1.4</strong><br>
 The exepcted value is</p>
 <p>$\mathbb{E}[X] = (-1)(0.2) + (0)(0.5) + (1)(0.3)
 = -0.2 + 0 + 0.3
@@ -13176,7 +13176,7 @@ The exepcted value is</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -13226,7 +13226,7 @@ The exepcted value is</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
@@ -13292,7 +13292,7 @@ $\alpha = \frac{1}{1 - e^{-1}}$.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">alpha</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">/</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">))</span>
@@ -13378,7 +13378,7 @@ $E_X[X] = \alpha(1 - 2e^{-1})$.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">EX</span> <span class="o">=</span> <span class="n">alpha</span> <span class="o">*</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">))</span>
@@ -13437,7 +13437,7 @@ $Var(X) = \alpha(2 - 5e^{-1}) - \big(\alpha(1 - 2e^{-1})\big)^2$.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">EX2</span> <span class="o">=</span> <span class="n">alpha</span> <span class="o">*</span> <span class="p">(</span><span class="mi">2</span> <span class="o">-</span> <span class="mi">5</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">))</span>
@@ -13485,7 +13485,7 @@ Std(X) ≈ 2.25 hours
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">pdf</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
@@ -13510,7 +13510,7 @@ Std(X) ≈ 2.25 hours
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">1.5</span><span class="p">,</span> <span class="mi">500</span><span class="p">)</span>
@@ -13585,7 +13585,7 @@ Std(X) ≈ 2.25 hours
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">empirical_x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
@@ -13651,7 +13651,7 @@ $x = -\ln\left(1 - \dfrac{u}{\alpha}\right)$</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Build inverse cdf function</span>
@@ -13674,10 +13674,11 @@ $x = -\ln\left(1 - \dfrac{u}{\alpha}\right)$</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Generate synthetic data</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="n">u</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">rand</span><span class="p">(</span><span class="mi">10000</span><span class="p">)</span>
 <span class="n">synthetic_data</span> <span class="o">=</span> <span class="n">inverse_cdf</span><span class="p">(</span><span class="n">u</span><span class="p">)</span>
 
@@ -13686,14 +13687,12 @@ $x = -\ln\left(1 - \dfrac{u}{\alpha}\right)$</p>
 <span class="n">syn_mean</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">synthetic_data</span><span class="p">)</span>
 <span class="n">syn_std</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">synthetic_data</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Empirical mean:&quot;</span><span class="p">,</span> <span class="n">mean</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Empirical std :&quot;</span><span class="p">,</span> <span class="n">std</span><span class="p">)</span>
+<span class="n">comparison_table</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s2">&quot;Mean&quot;</span><span class="p">:</span> <span class="p">[</span><span class="n">mean</span><span class="p">,</span> <span class="n">theory_mean</span><span class="p">,</span> <span class="n">syn_mean</span><span class="p">],</span>
+    <span class="s2">&quot;Standard Deviation&quot;</span><span class="p">:</span> <span class="p">[</span><span class="n">std</span><span class="p">,</span> <span class="n">theory_std</span><span class="p">,</span> <span class="n">syn_std</span><span class="p">]</span>
+<span class="p">},</span> <span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;Empirical&quot;</span><span class="p">,</span> <span class="s2">&quot;Theoretical&quot;</span><span class="p">,</span> <span class="s2">&quot;Synthetic&quot;</span><span class="p">])</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Theoretical mean:&quot;</span><span class="p">,</span> <span class="n">theory_mean</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Theoretical std :&quot;</span><span class="p">,</span> <span class="n">theory_std</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Synthetic mean:&quot;</span><span class="p">,</span> <span class="n">syn_mean</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Synthetic std :&quot;</span><span class="p">,</span> <span class="n">syn_std</span><span class="p">)</span>
+<span class="n">comparison_table</span>
 </pre></div>
 
     </div>
@@ -13706,18 +13705,54 @@ $x = -\ln\left(1 - \dfrac{u}{\alpha}\right)$</p>
 
 <div class="output_area">
 
-    <div class="prompt"></div>
+    <div class="prompt output_prompt">Out[11]:</div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Empirical mean: 0.40419623697994356
-Empirical std : 0.28556625142504993
-Theoretical mean: 0.41802329313067355
-Theoretical std : 0.2816494377629887
-Synthetic mean: 0.41930171309555525
-Synthetic std : 0.28326213234364006
-</pre>
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Mean</th>
+      <th>Standard Deviation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Empirical</th>
+      <td>0.404196</td>
+      <td>0.285566</td>
+    </tr>
+    <tr>
+      <th>Theoretical</th>
+      <td>0.418023</td>
+      <td>0.281649</td>
+    </tr>
+    <tr>
+      <th>Synthetic</th>
+      <td>0.417426</td>
+      <td>0.280799</td>
+    </tr>
+  </tbody>
+</table>
 </div>
+</div>
+
 </div>
 
 </div>
@@ -13734,7 +13769,7 @@ Synthetic std : 0.28326213234364006
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">kstest</span>
@@ -13748,7 +13783,7 @@ Synthetic std : 0.28326213234364006
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Statistic:&quot;</span><span class="p">,</span> <span class="n">ks_model</span><span class="o">.</span><span class="n">statistic</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;p-value :&quot;</span><span class="p">,</span> <span class="n">ks_model</span><span class="o">.</span><span class="n">pvalue</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;KS test vs uniform distribution:&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">KS test vs uniform distribution:&quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Statistic:&quot;</span><span class="p">,</span> <span class="n">ks_uniform</span><span class="o">.</span><span class="n">statistic</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;p-value :&quot;</span><span class="p">,</span> <span class="n">ks_uniform</span><span class="o">.</span><span class="n">pvalue</span><span class="p">)</span>
 </pre></div>
@@ -13770,6 +13805,7 @@ Synthetic std : 0.28326213234364006
 <pre>KS test vs modeled distribution:
 Statistic: 0.06721686728074683
 p-value : 0.3126882015911675
+
 KS test vs uniform distribution:
 Statistic: 0.17040498606312987
 p-value : 1.5118541753740167e-05
@@ -13802,7 +13838,7 @@ Which means the empirical data are not uniformly distributed.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">synthetic_hours</span> <span class="o">=</span> <span class="mi">8</span> <span class="o">*</span> <span class="n">synthetic_data</span>
@@ -13849,12 +13885,12 @@ Which means the empirical data are not uniformly distributed.</p>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>P(wait &gt; 6 hours): 0.1688
-P(wait &lt; 1 hour): 0.1855
-P(wait &lt; 4 | wait &gt; 3): 0.24856747678324442
-P(3 &lt; wait &lt; 5 hours): 0.2402
-90th percentile (hours): 6.772367179050891
-99th percentile (hours): 7.867189221653335
+<pre>P(wait &gt; 6 hours): 0.1626
+P(wait &lt; 1 hour): 0.1866
+P(wait &lt; 4 | wait &gt; 3): 0.255327545382794
+P(3 &lt; wait &lt; 5 hours): 0.2419
+90th percentile (hours): 6.711993895094193
+99th percentile (hours): 7.85713035214339
 </pre>
 </div>
 </div>
@@ -13890,7 +13926,7 @@ P(3 &lt; wait &lt; 5 hours): 0.2402
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -14049,7 +14085,7 @@ P(3 &lt; wait &lt; 5 hours): 0.2402
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">B</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">]])</span>
@@ -14096,7 +14132,7 @@ Using the eigenvalue and eigenvectors of q1 to verify</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">v</span> <span class="o">=</span> <span class="n">eigenvectors</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">]</span>
@@ -14115,7 +14151,7 @@ Using the eigenvalue and eigenvectors of q1 to verify</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[45]:</div>
+    <div class="prompt output_prompt">Out[16]:</div>
 
 
 
@@ -14141,7 +14177,7 @@ Using the eigenvalue and eigenvectors of q1 to verify</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[46]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">B</span> <span class="o">@</span> <span class="p">(</span><span class="n">B</span> <span class="o">@</span> <span class="n">v</span><span class="p">),</span> <span class="p">(</span><span class="n">lam</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span> <span class="o">*</span> <span class="n">v</span>
@@ -14157,7 +14193,7 @@ Using the eigenvalue and eigenvectors of q1 to verify</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[46]:</div>
+    <div class="prompt output_prompt">Out[17]:</div>
 
 
 
@@ -14191,7 +14227,7 @@ Using the eigenvalue and eigenvectors of q1 to verify</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dot_12</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">eigenvectors</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">],</span> <span class="n">eigenvectors</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">])</span>
@@ -14248,7 +14284,7 @@ Because B is a real, symmetric matrix.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -14269,7 +14305,7 @@ Because B is a real, symmetric matrix.</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[33]:</div>
+    <div class="prompt output_prompt">Out[19]:</div>
 
 
 
@@ -14304,7 +14340,7 @@ Name: 390, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">idx_42</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;PLCO2EQA&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">idxmax</span><span class="p">()</span>
@@ -14323,7 +14359,7 @@ Name: 390, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[34]:</div>
+    <div class="prompt output_prompt">Out[20]:</div>
 
 
 
@@ -14358,7 +14394,7 @@ Name: 191, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">primary_fuel_most_co2</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">idx_42</span><span class="p">,</span> <span class="s1">&#39;PLPRMFL&#39;</span><span class="p">]</span>
@@ -14375,7 +14411,7 @@ Name: 191, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[35]:</div>
+    <div class="prompt output_prompt">Out[21]:</div>
 
 
 
@@ -14408,7 +14444,7 @@ Name: 191, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">idx_44</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;LAT&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">idxmax</span><span class="p">()</span>
@@ -14427,7 +14463,7 @@ Name: 191, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[36]:</div>
+    <div class="prompt output_prompt">Out[22]:</div>
 
 
 
@@ -14462,7 +14498,7 @@ Name: 11, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">northernmost_state</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">idx_44</span><span class="p">,</span> <span class="s1">&#39;PSTATABB&#39;</span><span class="p">]</span>
@@ -14479,7 +14515,7 @@ Name: 11, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[37]:</div>
+    <div class="prompt output_prompt">Out[23]:</div>
 
 
 
@@ -14512,7 +14548,7 @@ Name: 11, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fuel_energy</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;PLPRMFL&#39;</span><span class="p">)[</span><span class="s1">&#39;PLNGENAN&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
@@ -14570,7 +14606,7 @@ Name: 11, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">hydro</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;PLPRMFL&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;WAT&#39;</span><span class="p">]</span>
@@ -14588,7 +14624,7 @@ Name: 11, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[39]:</div>
+    <div class="prompt output_prompt">Out[25]:</div>
 
 
 
@@ -14621,7 +14657,7 @@ Name: 11, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">coal_types</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;BIT&#39;</span><span class="p">,</span> <span class="s1">&#39;LTG&#39;</span><span class="p">,</span> <span class="s1">&#39;RC&#39;</span><span class="p">,</span> <span class="s1">&#39;SUB&#39;</span><span class="p">,</span> <span class="s1">&#39;WC&#39;</span><span class="p">]</span>
@@ -14640,7 +14676,7 @@ Name: 11, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[40]:</div>
+    <div class="prompt output_prompt">Out[26]:</div>
 
 
 
@@ -14673,7 +14709,7 @@ Name: 11, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">fuel_group</span><span class="p">(</span><span class="n">fuel</span><span class="p">):</span>
@@ -14707,7 +14743,7 @@ Name: 11, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[43]:</div>
+    <div class="prompt output_prompt">Out[27]:</div>
 
 
 
